@@ -7,7 +7,7 @@ function App() {
       <div className="container">
         <header className="App-header">React Dictionary App</header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="island" />
         </main>
       </div>
       <footer className="App-footer">
