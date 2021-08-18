@@ -5,7 +5,6 @@ import "./Phonetics.css";
 
 export default function Phonetics(props) {
   const audioIcon = <FontAwesomeIcon icon={faVolumeUp} />;
-  console.log(props.phonetics);
   return (
     <div className="Phonetics">
       <span className="text">{props.phonetics.text}</span>
